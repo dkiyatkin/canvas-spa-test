@@ -27,7 +27,7 @@
   }
 
   function createStar (dx, dy, color) {
-    const path = new Path2D(svgPath)
+    const path = new window.Path2D(svgPath)
     ctx.setTransform(1, 0, 0, 1, dx, dy)
     ctx.fillStyle = color
     ctx.fill(path)
