@@ -34,11 +34,11 @@
     return { path, dx, dy, color }
   }
 
-  const redStar = createStar(50, 50, '#FF0000')
-  const blueStar = createStar(350, 50, '#3914AF')
+  const blackStar = createStar(50, 50, '#111111')
+  const yellowStar = createStar(350, 50, '#FFD300')
   const greenStar = createStar(350, 350, '#00CC00')
-  const yellowStar = createStar(50, 350, '#FFD300')
-  const blackStar = createStar(200, 200, '#111111')
+  const blueStar = createStar(50, 350, '#3914AF')
+  const redStar = createStar(200, 200, '#FF0000')
 
   ctx.setTransform(1, 0, 0, 1, 0, 0)
 
